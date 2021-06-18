@@ -1,0 +1,134 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  'Montserrat', sans-serif;;
+}
+/* 
+ #mobile-header{
+    background-color: seagreen; 
+}  */
+
+    /* .navbar{
+        background-color: seagreen;
+    } */
+    .container{
+        width: 80%; 
+        margin: 0 auto; 
+        /* background-color: red; */
+    }
+     .navbar img{
+        background-color: #E72020E5;
+        margin-top: 5px;
+        margin-left: 10px;
+        border-radius: 10px;
+    
+    } 
+    
+    .navbar button{
+        /* border:none; */
+         /* border: 1px solid red;  */
+        text-align: center;
+        font-size: 25px;
+        padding: 5px 0px 2px 8px;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 35px;
+        
+    }
+    
+    .straight-line{
+        margin-top: 25px;
+        border: 1px solid white;
+        box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        top: 30px;
+        z-index: -1;
+        width: 100%;  
+    } 
+
+    .nav-lnks{
+        display: none;
+    }
+
+    .navbar-nav a{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        line-height: 22px;
+        color:  #000000;
+    }
+    .logo img{
+        display: none;
+    }
+    .form-header-text{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .form-header-text h5{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .login-form{
+        margin-top: 50px;
+    }
+    .form-details{
+        padding: 5px;
+        /* padding-left: 45px; */
+
+    }
+
+    .form-details input{
+        width: 90%;
+     }
+
+     .submit-btn button{
+         margin-top: 30px;
+         width: 90%;
+         border: 1px solid #E72020;
+         background-color: #E72020;
+         color: #ffff;
+     }
+     .social-media-login {
+         margin-top: 40px;
+         text-align: center;
+     }
+     .social-media-login p {
+         text-align: center;
+         margin-top: 5px;
+         max-width: 100%;
+    }
+
+     .social-media-login button{
+         display: block;
+         width: 90%;
+         height: 50px;
+     }
+     .social-media-login button:hover{
+         color:#E72020; 
+     }
+     .facebook{
+         margin-top: 30px;
+     }
+     .facebook i{
+         color: #4267B2;
+         font-size: 20px;
+     }
+     .google{
+        margin-top: 30px;
+     }
+     .google i{
+        color: 30px;
+        font-size: 20px;
+        margin-left: -15px;
+     }
+     .social-media-login span{
+         padding-left: 10px;
+     }
+     #form-desktop-view{
+         display: none;
+     }
