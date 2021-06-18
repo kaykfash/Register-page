@@ -154,6 +154,15 @@
     color: #4267b2;
     font-size: 20px;
   }
+  .facebook p{
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
   .google {
     margin-top: 20px;
   }
@@ -162,6 +171,14 @@
     font-size: 20px;
     margin-left: -15px;
   }
+  .google p{
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
   .desktop-social-media-login span {
     padding-left: 10px;
     /* color:  #7F7F7F; */
